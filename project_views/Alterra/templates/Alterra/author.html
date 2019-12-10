@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title> Alpha Tech Academy</title>
+  <!-- {% load static %} -->
+  <!-- <link rel="stylesheet" href="{% static 'css/style.css' %}"> -->
+  <link rel="stylesheet" type="text/css"  href="../../static/css/style.css"> 
+  <link rel="stylesheet" href="../../static/css/bootstrap.min.css">
+ </head>
+
+ <body>
+    <header>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-3">
+                    <a href="https://alterra.id" class="header-logo">
+                        <p>Alpha Tech Academy</p>
+                    </a>
+                </div>
+                <div class="col-9">
+                    <div class="header-nav">
+                        <ul class="header-nav__list list-unstyled">
+                            <li>
+                                <a href="{% url 'home'%}">Home</a>
+                            </li>
+                            <li>
+                                <a href="{% url 'blog'%}">Blog</a>
+                            </li>
+                            <li>
+                                <a href="{% url 'mentor'%}">Mentor</a>
+                            </li>
+                            <li>
+                                <a href="{% url 'mentee'%}">Mentee</a>
+                            </li>
+                            <li>
+                                <a href="{% url 'about'%}">About</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="heading">
+            <div class= "text_satu">
+              <h1> Alpha Tech Academy</h1>
+              <p>Alpha Tech Academy is a tech talent incubator that gives everyone (even non IT Background)
+                a chance to be professional Tech Talent within 3 months . Contact person: Email:
+                academy@alphatech.id phone: 0877 9609 9530</p>
+            </div>
+    </div>
+    <img src="../../static/asset/author/author.jpg">
+    <h2>Woka Aditama</h2>
+    <p>
+        Halo nama saya Woka Aditama dari bandung.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    </p>
+    <p>Alamat: bandung<p>
+    <p>Telephone: 021345678</p>
+    <p>Education:UNPAD</p>
+    <p>Profession: Copywriter</p>
+    <p>Nationality: Indonesia</p>
+    <p>Company: ALTA</p>
+    <p>Email: woka@alterra.id</p>
+    <p>Address: Bandung</p>
+    </p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15805.003065349678!2d112.60793429777992!3d-7.973015016242135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7882865ded0697%3A0xa77fa961a7c4e4b7!2sSepulsa%20Lodge%20Malang!5e0!3m2!1sen!2sid!4v1575965289147!5m2!1sen!2sid" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    <footer>
+            <section class="footer_satu">
+                <h4>Our Products:</h4>
+                <img class="server" src="../../static/asset/footer/logo-grey-alphapay.png">
+                <img class="scrum" src="../../static/asset/footer/logo-grey-sepulsa.png">
+                <img class="server" src="../../static/asset/footer/logo-grey-alphabill.png">
+            </section>
+            <section class="footer_dua">
+                    <p class="buka"><strong>Contact Person:</strong><p class="dalam">Mobile phone:087796099530. Email:academy@alphatech.id </p>
+            </section>
+    </footer>
+ </body>
+</html>

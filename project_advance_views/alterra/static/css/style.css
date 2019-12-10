@@ -1,0 +1,156 @@
+
+/* HEADER */
+header {
+    padding: 11px 110px;
+    border-bottom: 1px solid #ececec;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.header-nav {
+    display: table;
+    margin-left: auto;
+}
+.header-nav__list {
+    margin: 0;
+}
+.header-nav__list li {
+    display: inline-block;
+    vertical-align: middle;
+
+}
+.header-nav__list a {
+    text-decoration: none;
+    text-align: left;
+    font-family: 'Muli';
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0;
+    color: #19345E;
+    padding: 0 16px;
+    display: block;
+}
+
+.heading{
+    background-color:#34ebe1;
+    background-size: 100%;
+    color: white;
+}
+
+.text_satu{
+    margin: 0 auto;
+    padding-top: 90px;
+    padding-left:30px;
+    padding-bottom: 50px;
+    width: 550px;
+    height: auto;
+    text-align: center;
+    
+}
+
+
+
+.col-6 .gambar{
+    padding-top: 10px;
+    padding-left: 50px;
+    
+}
+
+.gambar img{
+    margin-left: 200px;
+}
+
+.col-6 .teks{
+    position: absolute;
+    display: inline;
+    float: left;
+
+}
+
+
+.paid, .no_tiga{
+    padding-bottom: 70px;
+}
+
+/* Blog */
+
+.artikel_satu{
+    margin-left: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.artikel_satu img{
+    width: 800px;
+    height:auto;
+}
+
+/* MENTEE */
+
+.job_mentor{
+    width: 150px;
+    height: auto;
+   
+    display: block;
+    margin-left: 300px;
+    padding-bottom: 40px;
+}
+
+.mentee_satu{
+    display: table;
+    position: fixed;
+
+}
+
+
+.mentee_dua {
+    display: inline-table;
+    position: absolute;
+}
+
+
+/* INPUT */
+
+form{
+    padding: 80px;
+    margin-left: 250px;
+}
+
+.h3-form{
+    padding:90px;
+}
+
+/* FOOTER */
+.footer_satu{
+    background-color:#34ebe1;
+}
+
+.footer_satu img{
+    width:auto;
+    height: 40px;
+    display: inline-block;s
+  
+}
+
+.footer_dua{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.container .skill_list{
+    padding-top: 30px;
+    margin-left: 200px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.skill img{
+    border: 1px solid black;
+    width: 120px;
+    height:120px;
+    padding: 30px;
+} 
+
